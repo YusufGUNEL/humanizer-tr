@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: profil-taklidi
+expected_outcome: |
+  Çıktı kullanıcının örneklerindeki sesi taşır: "ben" dili, kısa-orta cümleler, "-yor" ve geniş zaman, "ama" bağlacı, "açıkçası / bence / yani" gibi sözcüklerden en az biri, isteğe bağlı ayraç. "-mektedir", "kritik bir rol oynamaktadır", "Sonuç olarak", "başarının anahtarı" kalkar. Kaynakta olmayan kişisel anı, sayı ya da olay uydurulmaz (örneklerdeki anılar yeni metne taşınmaz). Profil için soru sorulmaz.

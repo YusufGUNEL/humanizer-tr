@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: ic-yazisma-plaza
+expected_outcome: |
+  İş yazışması registerında, "siz" hitabıyla doğal bir e-posta. "3 adım", "%20", "14 Kasım" ve "cuma" korunur. Plaza dili (align olmak, aksiyon almak, efor sarf etmek, toplantı set etmek) Türkçeleşir. "Şunu belirtmek isterim ki", "Bu bağlamda", "Sonuç mu?" kalkar. Kaynaksız "Uzmanlar" iddiası uydurma bir kaynakla güçlendirilmez; ya sadeleşir ya da notla işaretlenir. Yalnızca düzeltilmiş metin (ve gerekiyorsa kısa not) verilir.

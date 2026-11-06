@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: sosyal-sahneleme
+expected_outcome: |
+  Sosyal medya registerında, "ben" diliyle doğal bir gönderi. "6", "%15", "10 dakika", "1 bardak", "15 dakika" korunur. Kendi sorup cevaplama, kimseyle tartışma ("Birçok kişi ... düşünür, ancak"), vurgu doldurucuları ("tam anlamıyla", "kesinlikle"), "adeta", özdeyiş kapanışı ve "Ve bu her şeyi değiştirir." kalkar. Emojiler en fazla bire iner. Kaynaksız "Araştırmalar gösteriyor ki" ifadesi için kaynak uydurulmaz.
