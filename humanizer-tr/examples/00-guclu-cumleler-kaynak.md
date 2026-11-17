@@ -1,6 +1,6 @@
 # Güçlü Türkçe Cümleler — Örnek Korpusu
 
-Bu dosya turkce-humanizer skill'inin "güçlü cümle" hedefi için referans korpusudur. Skill bir cümle üretirken bu örneklerin cümle mimarisine bakar. Zorlama taklit değil, kalıp öğrenimi.
+Bu dosya humanizer-tr skill'inin "güçlü cümle" hedefi için referans korpusudur. Skill bir cümle üretirken bu örneklerin cümle mimarisine bakar. Zorlama taklit değil, kalıp öğrenimi.
 
 ## Güçlü Cümlenin Üç Niteliği
 

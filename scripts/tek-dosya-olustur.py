@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SKILL = ROOT / "humanizer-tr"
 OUT = ROOT / "dist" / "humanizer-tr-tek-dosya.md"
 REFS = ["ai-oruntuleri.md", "cumle-turleri.md", "baglaclar.md", "noktalama.md", "yazar-profili.md"]
+EXAMPLES = ["01-blog.md", "02-eposta.md", "03-akademik.md", "04-urun-aciklamasi.md", "05-linkedin.md"]
 
 HEADER = """# Humanizer TR: tek dosya sürümü
 
@@ -24,8 +25,8 @@ HEADER = """# Humanizer TR: tek dosya sürümü
 > hâlidir. Otomatik üretilir, elle düzenlemeyin
 > (`scripts/tek-dosya-olustur.py`).
 >
-> **Yapay zekaya not:** Aşağıda `references/...` diye anılan dosyaların
-> hepsi bu belgenin içinde, aynı adı taşıyan "Ek" başlıkları altında yer
+> **Yapay zekaya not:** Aşağıda `references/...` ve `examples/...` diye anılan
+> dosyaların hepsi bu belgenin içinde, aynı adı taşıyan "Ek" başlıkları altında yer
 > alır. Kullanıcı bir Türkçe metni insanlaştırmanı, doğallaştırmanı ya da
 > Türkçeleştirmeni istediğinde bu belgedeki kurallara göre çalış.
 
@@ -43,6 +44,9 @@ def main():
     for name in REFS:
         body = (SKILL / "references" / name).read_text(encoding="utf-8")
         parts.append(f"\n\n---\n\n# Ek: references/{name}\n\n" + demote(body))
+    for name in EXAMPLES:
+        body = (SKILL / "examples" / name).read_text(encoding="utf-8")
+        parts.append(f"\n\n---\n\n# Ek: examples/{name}\n\n" + demote(body))
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text("".join(parts), encoding="utf-8")
     print(f"{OUT.relative_to(ROOT)} yazıldı ({OUT.stat().st_size // 1024} KB)")

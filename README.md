@@ -6,7 +6,7 @@ tarihler, özel isimler ve iddiaların kesinliği aynen kalır, yeni bilgi eklen
 
 Türkçede yapay zeka izi sözcüklerden çok yapıda görülür: "-mektedir" yığını, eşit
 uzunlukta cümleler, çeviri kokan kalıplar, plaza dili, İngilizce noktalama, sahnelenmiş
-vurgu ("Sonuç mu? ..."). Skill bunları 11 kategoride 53 örüntüyle tanır. Her örüntünün
+vurgu ("Sonuç mu? ..."). Skill bunları 11 kategoride 58 örüntüyle tanır. Her örüntünün
 önce/sonra örneği ve "dokunma" satırı vardır, yani hangi durumda doğal olduğu da yazılıdır.
 
 Amaç yapay zeka dedektörlerini atlatmak değil, okunur ve doğru bir metin.

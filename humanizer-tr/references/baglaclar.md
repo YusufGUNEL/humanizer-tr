@@ -1,6 +1,6 @@
 # Bağlaç çeşitlendirme rehberi
 
-Tam envanter, TDK türleri ve kaynakça için `kaynaklar/baglaclar.md` dosyasına bakın. Bu dosya, metinde "ve / ama / çünkü / ayrıca / sonuç olarak" tekeli gördüğünüzde hangi alternatife hangi registerda uzanacağınızı gösterir.
+Bu dosya, metinde "ve / ama / çünkü / ayrıca / sonuç olarak" tekeli gördüğünüzde hangi alternatife hangi registerda uzanacağınızı gösteren bağlaç çeşitlendirme rehberidir.
 
 **Etiketler:** R = resmi, G = gündelik, E = edebi, N = nötr (her yerde), ESK = eskimiş (kullanmayın)
 

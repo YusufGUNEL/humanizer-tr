@@ -1,6 +1,6 @@
 # Cümle çeşitliliği araç kutusu
 
-Ayrıntılı tanımlar ve kaynakça için deponun `kaynaklar/cumle-turleri.md` dosyasına bakın. Bu dosya yalnızca yeniden yazarken lazım olanı içerir: Tekdüze bir paragrafı hangi yapılarla kırabilirsiniz ve her yapı hangi registerda yerindedir?
+Bu kılavuz, metinleri yeniden yazarken cümle ritmini ve yapısını çeşitlendirmek için pratik bir araç kutusudur: Tekdüze bir paragrafı hangi yapılarla kırabilirsiniz ve her yapı hangi registerda yerindedir?
 
 ## Önce teşhis
 

@@ -1,6 +1,6 @@
 # Noktalama ve yazım denetimi
 
-Kuralların gerekçeleri, TDK bağlantıları ve [DOĞRULANMADI] notları için `kaynaklar/noktalama.md` dosyasına bakın. Bu dosya, yeniden yazarken denetlenecek maddeleri sıralar. Her maddenin TDK'ya dayanıp dayanmadığı yanında gösterilir.
+Bu dosya, yeniden yazarken denetlenecek temel noktalama ve yazım maddelerini sıralar. Kurallar Türk Dil Kurumu (TDK) Yazım Kılavuzu ilkelerine dayanır.
 
 ## 1. Uzun çizgi (—): en belirgin iz
 

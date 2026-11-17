@@ -53,6 +53,7 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - [BIC-01 Gereksiz başlık, madde işareti ve kalın yazı](#bic-01)
 - [DOL-01 Açılış dolguları](#dol-01)
 - [DOL-02 Kapanış dolguları](#dol-02)
+- [DOL-03 Sıralama dolguları: "Öncelikle ... İkinci olarak ... Son olarak ..."](#dol-03)
 - [YAZ-01 Bağlaç de/da](#yaz-01)
 - [YAZ-02 ki](#yaz-02)
 - [YAZ-03 Soru eki mi](#yaz-03)
@@ -60,6 +61,7 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - [YAZ-05 Büyük harf](#yaz-05)
 - [YAPI-09 Tekrarlanan cümle açılışları](#yapi-09)
 - [YAPI-10 Eş anlamlı rotasyonu](#yapi-10)
+- [YAPI-11 Zincirleme isim tamlaması yığılması](#yapi-11)
 - [SOZ-07 Vurgu doldurucuları](#soz-07)
 - [SOZ-08 Satış dili](#soz-08)
 - [SOZ-09 Derin görünen özdeyişler](#soz-09)
@@ -67,6 +69,8 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - [SOZ-11 "Adeta" ve "sanki" ile örtme](#soz-11)
 - [SOZ-12 Fiil şişirmesi: gerçekleştirmek, sağlamak, yapmak](#soz-12)
 - [CEV-05 "Olanak sağlamak / mümkün kılmak" kalıbı](#cev-05)
+- [CEV-06 "X konusuna gelecek olursak / değinecek olursak"](#cev-06)
+- [CEV-07 "Sadece X ile sınırlı kalmayıp" kalıbı](#cev-07)
 - [NOK-05 Eğik çizgiyle sıralama](#nok-05)
 - [NOK-06 İki nokta enflasyonu ve "X şudur: Y"](#nok-06)
 - [NOK-07 Noktalı virgül ve karşıtlık bağlacından önce virgül](#nok-07)
@@ -74,10 +78,12 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - [SAH-02 Asıl sözden önce hazırlık cümlesi](#sah-02)
 - [SAH-03 Kimseyle tartışmak](#sah-03)
 - [SAH-04 Okurun bildiğini yeniden anlatmak](#sah-04)
+- [SAH-05 "Unutulmamalıdır ki / Şunu unutmamak gerekir ki"](#sah-05)
 - [PLZ-01 Plaza dili](#plz-01)
 - [PLZ-02 Bürokratik edat yığını](#plz-02)
 - [OTR-01 Belirsiz otorite](#otr-01)
 - [OTR-02 Abartılmış önem ve tarihsellik](#otr-02)
+- [OTR-03 Sahte denge ve çit üstünde oturma (fence-sitting)](#otr-03)
 - [KAL-01 Sohbet kalıntısı ve bilgi sınırı feragati](#kal-01)
 - [KAL-02 Metnin kendinden söz etmesi](#kal-02)
 
@@ -351,6 +357,16 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - **Önce:** *Umarım bu bilgiler size yardımcı olur! Başka bir sorunuz olursa çekinmeden sormaktan lütfen çekinmeyin.*
 - **Sonra:** *(silinir)*
 
+<a id="dol-03"></a>
+### DOL-03 · Sıralama dolguları: "Öncelikle ... İkinci olarak ... Son olarak ..."
+
+- **Belirti:** Paragraf ya da argüman başlarında düzenli olarak "Öncelikle,", "İkinci olarak,", "Üçüncü olarak,", "Son olarak," sayaçlarının kullanımı.
+- **Neden yapay:** İngilizcedeki *First of all / Secondly / Lastly* düzeninin düzyazıya mekanik aktarımıdır. Türkçe düzyazıda bu sayaçlar yerine konuya doğrudan girilir ya da organik geçişler kullanılır.
+- **Ne yapmalı:** Sıralama sayaçlarını kaldırın; argümanları veya eylemleri doğrudan söyleyin ya da zarf-fiil/doğal bağlaçla bağlayın.
+- **Dokunma:** Adım adım teknik talimatlar, yemek tarifleri ve resmi yönergeler.
+- **Önce:** *Öncelikle pazar araştırması yapılmalıdır. İkinci olarak prototip geliştirilmelidir. Son olarak kullanıcı testleri tamamlanmalıdır.*
+- **Sonra:** *Önce pazar araştırması yapılır, ardından prototip geliştirilir ve kullanıcı testlerine geçilir.*
+
 ---
 
 <a id="yaz-01"></a>
@@ -386,7 +402,7 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 
 - **Belirti:** Kurum adlarına kesme ("Türk Dil Kurumu'na"), yapım ekine kesme ("Türkiye'li"), kısaltmaya yanlış ünlü ("TDK'ya").
 - **Ne yapmalı:** Kurum adlarında kesmeyi kaldırın, yapım ekinde ayırmayın, kısaltmaya gelen eki okunuşa uydurun. Bkz. `noktalama.md` §5.
-- **Dokunma:** Kullanıcının marka adı yazımı (marka kendi adını kesmeyle yazıyorsa). [Tartışmalı, bkz. CONTRIBUTING.]
+- **Dokunma:** Kullanıcının marka adı yazımı (marka kendi adını tescilli olarak kesmeyle yazıyorsa).
 - **Önce:** *Başvurular Ankara Üniversitesi'ne yapılacak, sonuçlar TDK'ya bildirilecek.*
 - **Sonra:** *Başvurular Ankara Üniversitesine yapılacak, sonuçlar TDK'ye bildirilecek.*
 
@@ -420,6 +436,16 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - **Dokunma:** Metonim eş anlamlı değildir ("Türkiye / Ankara / hükümet" farklı şeyleri gösterebilir). Emin değilseniz dokunmayın.
 - **Önce:** *Platform kullanıcılarına hızlı erişim sunuyor. Sistem ayrıca raporlama yapıyor. Çözüm, ekiplerin işini kolaylaştırıyor.*
 - **Sonra:** *Platform hızlı erişim sunuyor, rapor da çıkarıyor. Ekiplerin işini kolaylaştırıyor.*
+
+<a id="yapi-11"></a>
+### YAPI-11 · Zincirleme isim tamlaması yığılması
+
+- **Belirti:** Art arda 3-4 ismin birbirine bağlandığı hantal tamlamalar: "kullanıcı deneyimi optimizasyonu süreç yönetimi", "müşteri memnuniyeti artırma stratejisi planlaması".
+- **Neden yapay:** İngilizce isim öbeklerinin (noun stacking) Türkçede yapay tamlama zincirlerine dönüştürülmesidir. Metnin nefes almasını ve okunmasını zorlaştırır.
+- **Ne yapmalı:** Tamlamayı fiilimsilerle açın veya cümleye bölün: "kullanıcı deneyimini iyileştirme süreçleri".
+- **Dokunma:** Yerleşik kurumsal unvanlar ve resmi proje/mevzuat adları.
+- **Önce:** *Şirketimiz müşteri memnuniyeti artırma stratejisi planlaması üzerine odaklanmaktadır.*
+- **Sonra:** *Şirketimiz müşteri memnuniyetini artırmaya yönelik planlara odaklanıyor.*
 
 <a id="soz-07"></a>
 ### SOZ-07 · Vurgu doldurucuları
@@ -491,6 +517,26 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - **Önce:** *Yeni özellik, kullanıcıların raporları tek tıkla indirmesine olanak sağlamaktadır.*
 - **Sonra:** *Yeni özellikle raporlar tek tıkla indirilebiliyor.*
 
+<a id="cev-06"></a>
+### CEV-06 · "X konusuna gelecek olursak / değinecek olursak"
+
+- **Belirti:** "Fiyatlandırmaya gelecek olursak...", "Performans konusuna değinecek olursak...", "Güvenlik boyutuna bakacak olursak...".
+- **Neden yapay:** İngilizce *When it comes to X / Moving on to X* kalıplarının çevirisidir. Konu geçişlerini pürüzsüz yapmak yerine yapay bir anons havası yaratır.
+- **Ne yapmalı:** Kalıbı kaldırıp konuyu cümlenin doğal öznesi veya tümleci yapın.
+- **Dokunma:** Sözlü sunumlar ve video/podcast konuşma metinleri.
+- **Önce:** *Ürünün fiyatlandırma konusuna gelecek olursak, rakiplerine göre oldukça avantajlıdır.*
+- **Sonra:** *Ürün rakiplerine göre daha uygun fiyatlı.*
+
+<a id="cev-07"></a>
+### CEV-07 · "Sadece X ile sınırlı kalmayıp" kalıbı
+
+- **Belirti:** "...sadece bununla sınırlı kalmayıp aynı zamanda...", "...yalnızca X ile sınırlı değildir".
+- **Neden yapay:** İngilizce *not limited to / not only... but also...* refleksinin Türkçeye gereksiz uzatılarak aktarılmasıdır.
+- **Ne yapmalı:** "Sınırlı kalmayıp" dolgusunu silip "hem ... hem", "ayrıca" ya da "-le birlikte" ile bağlayın.
+- **Dokunma:** Hukuki kapsam maddeleri ve garanti şartları.
+- **Önce:** *Sistemimiz sadece masaüstüyle sınırlı kalmayıp mobil cihazlarda da sorunsuz çalışmaktadır.*
+- **Sonra:** *Sistemimiz masaüstünün yanında mobil cihazlarda da sorunsuz çalışıyor.*
+
 <a id="nok-05"></a>
 ### NOK-05 · Eğik çizgiyle sıralama
 
@@ -561,6 +607,16 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - **Önce:** *Değerli ekip arkadaşlarım, bildiğiniz üzere yazılım geliştirme, bilgisayar programlarının tasarlanması ve yazılması sürecidir. Bu sprintte ödeme modülünü bitireceğiz.*
 - **Sonra:** *Bu sprintte ödeme modülünü bitireceğiz.*
 
+<a id="sah-05"></a>
+### SAH-05 · "Unutulmamalıdır ki / Şunu unutmamak gerekir ki"
+
+- **Belirti:** "Unutulmamalıdır ki...", "Şunu unutmamak gerekir ki...", "Gözden kaçırılmaması gereken bir diğer husus...".
+- **Neden yapay:** SAH-02 benzeri bir hazırlık ve sahte bilgece uyarı kalıbıdır. Okura akıl öğretme havası verir.
+- **Ne yapmalı:** Kalıbı silin, asıl bilgiyi doğrudan söyleyin.
+- **Dokunma:** Güvenlik uyarıları ve yasal sorumluluk reddi metinleri.
+- **Önce:** *Unutulmamalıdır ki, düzenli yedekleme yapılmadığı takdirde veri kaybı yaşanabilir.*
+- **Sonra:** *Düzenli yedekleme yapılmazsa veri kaybı yaşanabilir.*
+
 <a id="plz-01"></a>
 ### PLZ-01 · Plaza dili
 
@@ -600,6 +656,16 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - **Dokunma:** Gerçekten tarihi bir olayı anlatan metin.
 - **Önce:** *Belediyenin yeni otobüs hattı, şehrin ulaşım tarihinde yeni bir çağın başlangıcı oldu.*
 - **Sonra:** *Belediye yeni bir otobüs hattı açtı.*
+
+<a id="otr-03"></a>
+### OTR-03 · Sahte denge ve çit üstünde oturma (fence-sitting)
+
+- **Belirti:** Karşılaştırmalı veya tartışmalı konularda net bir argüman kurmaktan kaçınıp *"Her ne kadar X avantajlı olsa da Y'nin de göz ardı edilemeyecek yönleri bulunmaktadır. Dolayısıyla en iyi yaklaşım dengeli bir yol izlemektir."* gibi kalıplarla bitirme.
+- **Neden yapay:** Modellerin tarafsız kalma eğitiminden (RLHF) kaynaklanan refleksidir. Metnin bir yere varmasını engeller.
+- **Ne yapmalı:** İçi boş orta yol cümlelerini silin; kaynakta somut argümanlar varsa bırakın ama yapay uzlaşma kalıbını kaldırın.
+- **Dokunma:** Tarafsız haber metinleri ve çok sesli bilimsel derlemeler.
+- **Önce:** *Uzaktan çalışmanın esneklik gibi avantajları olsa da ofiste çalışmanın da sosyalleşme gibi faydaları vardır. Sonuçta en doğrusu her iki yaklaşımın dengeli bir sentezini yapmaktır.*
+- **Sonra:** *Uzaktan çalışma esneklik sunarken ofiste çalışma yüz yüze iletişimi kolaylaştırıyor.*
 
 <a id="kal-01"></a>
 ### KAL-01 · Sohbet kalıntısı ve bilgi sınırı feragati

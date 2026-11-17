@@ -5,8 +5,8 @@
 > hâlidir. Otomatik üretilir, elle düzenlemeyin
 > (`scripts/tek-dosya-olustur.py`).
 >
-> **Yapay zekaya not:** Aşağıda `references/...` diye anılan dosyaların
-> hepsi bu belgenin içinde, aynı adı taşıyan "Ek" başlıkları altında yer
+> **Yapay zekaya not:** Aşağıda `references/...` ve `examples/...` diye anılan
+> dosyaların hepsi bu belgenin içinde, aynı adı taşıyan "Ek" başlıkları altında yer
 > alır. Kullanıcı bir Türkçe metni insanlaştırmanı, doğallaştırmanı ya da
 > Türkçeleştirmeni istediğinde bu belgedeki kurallara göre çalış.
 
@@ -225,6 +225,7 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - [BIC-01 Gereksiz başlık, madde işareti ve kalın yazı](#bic-01)
 - [DOL-01 Açılış dolguları](#dol-01)
 - [DOL-02 Kapanış dolguları](#dol-02)
+- [DOL-03 Sıralama dolguları: "Öncelikle ... İkinci olarak ... Son olarak ..."](#dol-03)
 - [YAZ-01 Bağlaç de/da](#yaz-01)
 - [YAZ-02 ki](#yaz-02)
 - [YAZ-03 Soru eki mi](#yaz-03)
@@ -232,6 +233,7 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - [YAZ-05 Büyük harf](#yaz-05)
 - [YAPI-09 Tekrarlanan cümle açılışları](#yapi-09)
 - [YAPI-10 Eş anlamlı rotasyonu](#yapi-10)
+- [YAPI-11 Zincirleme isim tamlaması yığılması](#yapi-11)
 - [SOZ-07 Vurgu doldurucuları](#soz-07)
 - [SOZ-08 Satış dili](#soz-08)
 - [SOZ-09 Derin görünen özdeyişler](#soz-09)
@@ -239,6 +241,8 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - [SOZ-11 "Adeta" ve "sanki" ile örtme](#soz-11)
 - [SOZ-12 Fiil şişirmesi: gerçekleştirmek, sağlamak, yapmak](#soz-12)
 - [CEV-05 "Olanak sağlamak / mümkün kılmak" kalıbı](#cev-05)
+- [CEV-06 "X konusuna gelecek olursak / değinecek olursak"](#cev-06)
+- [CEV-07 "Sadece X ile sınırlı kalmayıp" kalıbı](#cev-07)
 - [NOK-05 Eğik çizgiyle sıralama](#nok-05)
 - [NOK-06 İki nokta enflasyonu ve "X şudur: Y"](#nok-06)
 - [NOK-07 Noktalı virgül ve karşıtlık bağlacından önce virgül](#nok-07)
@@ -246,10 +250,12 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - [SAH-02 Asıl sözden önce hazırlık cümlesi](#sah-02)
 - [SAH-03 Kimseyle tartışmak](#sah-03)
 - [SAH-04 Okurun bildiğini yeniden anlatmak](#sah-04)
+- [SAH-05 "Unutulmamalıdır ki / Şunu unutmamak gerekir ki"](#sah-05)
 - [PLZ-01 Plaza dili](#plz-01)
 - [PLZ-02 Bürokratik edat yığını](#plz-02)
 - [OTR-01 Belirsiz otorite](#otr-01)
 - [OTR-02 Abartılmış önem ve tarihsellik](#otr-02)
+- [OTR-03 Sahte denge ve çit üstünde oturma (fence-sitting)](#otr-03)
 - [KAL-01 Sohbet kalıntısı ve bilgi sınırı feragati](#kal-01)
 - [KAL-02 Metnin kendinden söz etmesi](#kal-02)
 
@@ -523,6 +529,16 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - **Önce:** *Umarım bu bilgiler size yardımcı olur! Başka bir sorunuz olursa çekinmeden sormaktan lütfen çekinmeyin.*
 - **Sonra:** *(silinir)*
 
+<a id="dol-03"></a>
+#### DOL-03 · Sıralama dolguları: "Öncelikle ... İkinci olarak ... Son olarak ..."
+
+- **Belirti:** Paragraf ya da argüman başlarında düzenli olarak "Öncelikle,", "İkinci olarak,", "Üçüncü olarak,", "Son olarak," sayaçlarının kullanımı.
+- **Neden yapay:** İngilizcedeki *First of all / Secondly / Lastly* düzeninin düzyazıya mekanik aktarımıdır. Türkçe düzyazıda bu sayaçlar yerine konuya doğrudan girilir ya da organik geçişler kullanılır.
+- **Ne yapmalı:** Sıralama sayaçlarını kaldırın; argümanları veya eylemleri doğrudan söyleyin ya da zarf-fiil/doğal bağlaçla bağlayın.
+- **Dokunma:** Adım adım teknik talimatlar, yemek tarifleri ve resmi yönergeler.
+- **Önce:** *Öncelikle pazar araştırması yapılmalıdır. İkinci olarak prototip geliştirilmelidir. Son olarak kullanıcı testleri tamamlanmalıdır.*
+- **Sonra:** *Önce pazar araştırması yapılır, ardından prototip geliştirilir ve kullanıcı testlerine geçilir.*
+
 ---
 
 <a id="yaz-01"></a>
@@ -558,7 +574,7 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 
 - **Belirti:** Kurum adlarına kesme ("Türk Dil Kurumu'na"), yapım ekine kesme ("Türkiye'li"), kısaltmaya yanlış ünlü ("TDK'ya").
 - **Ne yapmalı:** Kurum adlarında kesmeyi kaldırın, yapım ekinde ayırmayın, kısaltmaya gelen eki okunuşa uydurun. Bkz. `noktalama.md` §5.
-- **Dokunma:** Kullanıcının marka adı yazımı (marka kendi adını kesmeyle yazıyorsa). [Tartışmalı, bkz. CONTRIBUTING.]
+- **Dokunma:** Kullanıcının marka adı yazımı (marka kendi adını tescilli olarak kesmeyle yazıyorsa).
 - **Önce:** *Başvurular Ankara Üniversitesi'ne yapılacak, sonuçlar TDK'ya bildirilecek.*
 - **Sonra:** *Başvurular Ankara Üniversitesine yapılacak, sonuçlar TDK'ye bildirilecek.*
 
@@ -592,6 +608,16 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - **Dokunma:** Metonim eş anlamlı değildir ("Türkiye / Ankara / hükümet" farklı şeyleri gösterebilir). Emin değilseniz dokunmayın.
 - **Önce:** *Platform kullanıcılarına hızlı erişim sunuyor. Sistem ayrıca raporlama yapıyor. Çözüm, ekiplerin işini kolaylaştırıyor.*
 - **Sonra:** *Platform hızlı erişim sunuyor, rapor da çıkarıyor. Ekiplerin işini kolaylaştırıyor.*
+
+<a id="yapi-11"></a>
+#### YAPI-11 · Zincirleme isim tamlaması yığılması
+
+- **Belirti:** Art arda 3-4 ismin birbirine bağlandığı hantal tamlamalar: "kullanıcı deneyimi optimizasyonu süreç yönetimi", "müşteri memnuniyeti artırma stratejisi planlaması".
+- **Neden yapay:** İngilizce isim öbeklerinin (noun stacking) Türkçede yapay tamlama zincirlerine dönüştürülmesidir. Metnin nefes almasını ve okunmasını zorlaştırır.
+- **Ne yapmalı:** Tamlamayı fiilimsilerle açın veya cümleye bölün: "kullanıcı deneyimini iyileştirme süreçleri".
+- **Dokunma:** Yerleşik kurumsal unvanlar ve resmi proje/mevzuat adları.
+- **Önce:** *Şirketimiz müşteri memnuniyeti artırma stratejisi planlaması üzerine odaklanmaktadır.*
+- **Sonra:** *Şirketimiz müşteri memnuniyetini artırmaya yönelik planlara odaklanıyor.*
 
 <a id="soz-07"></a>
 #### SOZ-07 · Vurgu doldurucuları
@@ -663,6 +689,26 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - **Önce:** *Yeni özellik, kullanıcıların raporları tek tıkla indirmesine olanak sağlamaktadır.*
 - **Sonra:** *Yeni özellikle raporlar tek tıkla indirilebiliyor.*
 
+<a id="cev-06"></a>
+#### CEV-06 · "X konusuna gelecek olursak / değinecek olursak"
+
+- **Belirti:** "Fiyatlandırmaya gelecek olursak...", "Performans konusuna değinecek olursak...", "Güvenlik boyutuna bakacak olursak...".
+- **Neden yapay:** İngilizce *When it comes to X / Moving on to X* kalıplarının çevirisidir. Konu geçişlerini pürüzsüz yapmak yerine yapay bir anons havası yaratır.
+- **Ne yapmalı:** Kalıbı kaldırıp konuyu cümlenin doğal öznesi veya tümleci yapın.
+- **Dokunma:** Sözlü sunumlar ve video/podcast konuşma metinleri.
+- **Önce:** *Ürünün fiyatlandırma konusuna gelecek olursak, rakiplerine göre oldukça avantajlıdır.*
+- **Sonra:** *Ürün rakiplerine göre daha uygun fiyatlı.*
+
+<a id="cev-07"></a>
+#### CEV-07 · "Sadece X ile sınırlı kalmayıp" kalıbı
+
+- **Belirti:** "...sadece bununla sınırlı kalmayıp aynı zamanda...", "...yalnızca X ile sınırlı değildir".
+- **Neden yapay:** İngilizce *not limited to / not only... but also...* refleksinin Türkçeye gereksiz uzatılarak aktarılmasıdır.
+- **Ne yapmalı:** "Sınırlı kalmayıp" dolgusunu silip "hem ... hem", "ayrıca" ya da "-le birlikte" ile bağlayın.
+- **Dokunma:** Hukuki kapsam maddeleri ve garanti şartları.
+- **Önce:** *Sistemimiz sadece masaüstüyle sınırlı kalmayıp mobil cihazlarda da sorunsuz çalışmaktadır.*
+- **Sonra:** *Sistemimiz masaüstünün yanında mobil cihazlarda da sorunsuz çalışıyor.*
+
 <a id="nok-05"></a>
 #### NOK-05 · Eğik çizgiyle sıralama
 
@@ -733,6 +779,16 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - **Önce:** *Değerli ekip arkadaşlarım, bildiğiniz üzere yazılım geliştirme, bilgisayar programlarının tasarlanması ve yazılması sürecidir. Bu sprintte ödeme modülünü bitireceğiz.*
 - **Sonra:** *Bu sprintte ödeme modülünü bitireceğiz.*
 
+<a id="sah-05"></a>
+#### SAH-05 · "Unutulmamalıdır ki / Şunu unutmamak gerekir ki"
+
+- **Belirti:** "Unutulmamalıdır ki...", "Şunu unutmamak gerekir ki...", "Gözden kaçırılmaması gereken bir diğer husus...".
+- **Neden yapay:** SAH-02 benzeri bir hazırlık ve sahte bilgece uyarı kalıbıdır. Okura akıl öğretme havası verir.
+- **Ne yapmalı:** Kalıbı silin, asıl bilgiyi doğrudan söyleyin.
+- **Dokunma:** Güvenlik uyarıları ve yasal sorumluluk reddi metinleri.
+- **Önce:** *Unutulmamalıdır ki, düzenli yedekleme yapılmadığı takdirde veri kaybı yaşanabilir.*
+- **Sonra:** *Düzenli yedekleme yapılmazsa veri kaybı yaşanabilir.*
+
 <a id="plz-01"></a>
 #### PLZ-01 · Plaza dili
 
@@ -772,6 +828,16 @@ Wikipedia "Signs of AI writing") Türkçe karşılıklarıdır. `NOK-05`–`NOK-
 - **Dokunma:** Gerçekten tarihi bir olayı anlatan metin.
 - **Önce:** *Belediyenin yeni otobüs hattı, şehrin ulaşım tarihinde yeni bir çağın başlangıcı oldu.*
 - **Sonra:** *Belediye yeni bir otobüs hattı açtı.*
+
+<a id="otr-03"></a>
+#### OTR-03 · Sahte denge ve çit üstünde oturma (fence-sitting)
+
+- **Belirti:** Karşılaştırmalı veya tartışmalı konularda net bir argüman kurmaktan kaçınıp *"Her ne kadar X avantajlı olsa da Y'nin de göz ardı edilemeyecek yönleri bulunmaktadır. Dolayısıyla en iyi yaklaşım dengeli bir yol izlemektir."* gibi kalıplarla bitirme.
+- **Neden yapay:** Modellerin tarafsız kalma eğitiminden (RLHF) kaynaklanan refleksidir. Metnin bir yere varmasını engeller.
+- **Ne yapmalı:** İçi boş orta yol cümlelerini silin; kaynakta somut argümanlar varsa bırakın ama yapay uzlaşma kalıbını kaldırın.
+- **Dokunma:** Tarafsız haber metinleri ve çok sesli bilimsel derlemeler.
+- **Önce:** *Uzaktan çalışmanın esneklik gibi avantajları olsa da ofiste çalışmanın da sosyalleşme gibi faydaları vardır. Sonuçta en doğrusu her iki yaklaşımın dengeli bir sentezini yapmaktır.*
+- **Sonra:** *Uzaktan çalışma esneklik sunarken ofiste çalışma yüz yüze iletişimi kolaylaştırıyor.*
 
 <a id="kal-01"></a>
 #### KAL-01 · Sohbet kalıntısı ve bilgi sınırı feragati
@@ -818,7 +884,7 @@ Aşağıdaki bloğu kopyalayın, uygun kategoriye ekleyin, sıradaki numarayı v
 
 ## Cümle çeşitliliği araç kutusu
 
-Ayrıntılı tanımlar ve kaynakça için deponun `kaynaklar/cumle-turleri.md` dosyasına bakın. Bu dosya yalnızca yeniden yazarken lazım olanı içerir: Tekdüze bir paragrafı hangi yapılarla kırabilirsiniz ve her yapı hangi registerda yerindedir?
+Bu kılavuz, metinleri yeniden yazarken cümle ritmini ve yapısını çeşitlendirmek için pratik bir araç kutusudur: Tekdüze bir paragrafı hangi yapılarla kırabilirsiniz ve her yapı hangi registerda yerindedir?
 
 ### Önce teşhis
 
@@ -880,7 +946,7 @@ Sütunlar: G = gündelik/blog/sosyal, İ = iş e-postası/ürün metni, A = akad
 
 ## Bağlaç çeşitlendirme rehberi
 
-Tam envanter, TDK türleri ve kaynakça için `kaynaklar/baglaclar.md` dosyasına bakın. Bu dosya, metinde "ve / ama / çünkü / ayrıca / sonuç olarak" tekeli gördüğünüzde hangi alternatife hangi registerda uzanacağınızı gösterir.
+Bu dosya, metinde "ve / ama / çünkü / ayrıca / sonuç olarak" tekeli gördüğünüzde hangi alternatife hangi registerda uzanacağınızı gösteren bağlaç çeşitlendirme rehberidir.
 
 **Etiketler:** R = resmi, G = gündelik, E = edebi, N = nötr (her yerde), ESK = eskimiş (kullanmayın)
 
@@ -934,7 +1000,7 @@ Bağlaç değiştirmek anlamı değiştirebilir. Aşağıdaki çiftler eş anlam
 
 ## Noktalama ve yazım denetimi
 
-Kuralların gerekçeleri, TDK bağlantıları ve [DOĞRULANMADI] notları için `kaynaklar/noktalama.md` dosyasına bakın. Bu dosya, yeniden yazarken denetlenecek maddeleri sıralar. Her maddenin TDK'ya dayanıp dayanmadığı yanında gösterilir.
+Bu dosya, yeniden yazarken denetlenecek temel noktalama ve yazım maddelerini sıralar. Kurallar Türk Dil Kurumu (TDK) Yazım Kılavuzu ilkelerine dayanır.
 
 ### 1. Uzun çizgi (—): en belirgin iz
 
@@ -1058,3 +1124,327 @@ Kaçındıkları: resmi edatlar, "olarak", soru-cevap kalıbı
    yalnızca yığılmayı azaltır.
 4. Profil yeni bilgi eklemenin gerekçesi olamaz. Değişmez kurallar her zaman önce gelir.
 5. Örnek verilmemişse profil uydurmayın.
+
+
+---
+
+# Ek: examples/01-blog.md
+
+## Örnek 1: Blog yazısı
+
+**Register:** gündelik/blog · **Hitap:** siz · **Kişi:** ben
+
+### Önce
+
+> # Evden Çalışırken Verimliliği Artırmanın 3 Yolu
+>
+> Harika bir konu! Günümüzde uzaktan çalışma, hayatımızın ayrılmaz bir parçası haline gelmiştir. Pandemi sonrasında birçok şirket hibrit modele geçmiş olup çalışanlar evden çalışmanın hem avantajlarını hem de zorluklarını deneyimlemektedir. Bu yazıda, evden çalışırken verimliliğinizi artırmanın yollarına derinlemesine dalacağız.
+>
+> ## 1. Çalışma Alanınızı Ayırın
+>
+> Çalışma alanı, verimlilik açısından son derece kritik bir rol oynamaktadır. Ben üç yıldır evden çalışıyorum ve ilk yıl yatak odasında çalışıyordum ama bu durum uykumu olumsuz etkiliyordu. Daha sonra salonun bir köşesini ofise dönüştürdüm ve bu değişiklik oyunun kurallarını değiştirdi.
+>
+> ## 2. Rutin Oluşturun
+>
+> Rutin, zihnimize "artık iş zamanı" sinyalini vermektedir. Her sabah 08.30'da kahvemi alıp masama oturuyorum — tıpkı ofise gidiyormuş gibi. Bu basit alışkanlık, güne odaklı, enerjik ve motive bir şekilde başlamamı sağlıyor.
+>
+> ## 3. Mola Vermeyi Unutmayın
+>
+> Molalar, verimliliğin göz ardı edilen ama hayati öneme sahip bir unsurudur. Pomodoro tekniğini kullanıyorum: 25 dakika çalışma, 5 dakika mola. Bu yöntem sayesinde gün sonunda daha az yorgun hissediyorum.
+>
+> ## Sonuç
+>
+> Sonuç olarak, evden çalışırken verimliliği artırmak için çalışma alanını ayırmak, rutin oluşturmak ve mola vermek büyük önem taşımaktadır. Günün sonunda, küçük değişiklikler büyük farklar yaratır. Umarım bu ipuçları size yardımcı olur!
+
+### Sonra
+
+> # Evden Çalışırken Verimliliği Artırmanın 3 Yolu
+>
+> Uzaktan çalışma artık hayatımızın bir parçası. Pandemiden sonra birçok şirket hibrit modele geçti ve çalışanlar evden çalışmanın hem avantajlarını hem zorluklarını yaşayarak öğrendi. Bu yazıda evde verimliliğinizi nasıl artırabileceğinizi ayrıntılı olarak anlatacağım.
+>
+> ## 1. Çalışma alanınızı ayırın
+>
+> Verimlilik büyük ölçüde nerede çalıştığınıza bağlı. Üç yıldır evden çalışıyorum. İlk yıl yatak odasındaydım, uykum bozuldu. Sonra salonun bir köşesini ofise çevirdim ve her şey değişti.
+>
+> ## 2. Rutin oluşturun
+>
+> Rutin, zihne "artık iş zamanı" sinyalini verir. Her sabah 08.30'da kahvemi alıp masama oturuyorum, tıpkı ofise gider gibi. Bu basit alışkanlıkla güne odaklanmış ve enerjik başlıyorum.
+>
+> ## 3. Mola vermeyi unutmayın
+>
+> Molalar çoğu zaman göz ardı edilir, oysa verimliliğin vazgeçilmez bir parçasıdır. Ben Pomodoro tekniğini kullanıyorum: 25 dakika çalışma, 5 dakika mola. Akşam olduğunda eskisi kadar yorgun hissetmiyorum.
+>
+> ## Kısacası
+>
+> Ayrı bir çalışma alanı, sabit bir rutin ve düzenli molalar. Küçük değişiklikler, ama fark yaratıyorlar.
+
+### Düzeltilen örüntüler
+
+| ID | Ne değişti |
+|---|---|
+| DOL-01 | "Harika bir konu!" silindi |
+| SOZ-02 | "Günümüzde" silindi |
+| SOZ-01 | "ayrılmaz bir parçası", "son derece kritik bir rol oynamaktadır", "hayati öneme sahip", "büyük önem taşımaktadır" sadeleştirildi |
+| CEV-01 | "derinlemesine dalacağız" → "ayrıntılı olarak anlatacağım". "oyunun kurallarını değiştirdi" → "her şey değişti". "Günün sonunda" silindi |
+| YAPI-03 | "-mektedir/-maktadır" yüklemleri "-yor"a ya da geniş zamana çevrildi |
+| SOZ-04 | "geçmiş olup" iki yükleme bölündü |
+| YAPI-02 | "...ve ilk yıl ... ama bu durum ..." zinciri kısa cümlelere bölündü |
+| NOK-01 | Uzun çizgi virgüle çevrildi |
+| YAPI-05 | "odaklı, enerjik ve motive" → "odaklanmış ve enerjik" (üç sıfattan ikisi aynı şeyi söylüyordu) |
+| YAPI-08 | Sonuç bölümündeki tekrar eden özet kısaltıldı |
+| DOL-02 | "Umarım bu ipuçları size yardımcı olur!" silindi |
+| YAZ-05 | Ara başlıklarda yalnızca ilk sözcük büyük harfle başladı |
+
+### Bilinçli olarak korunanlar
+
+- **Ana başlık ve 3 bölümlü yapı:** Blog yazısı için başlıklar okuyucuya yardım ediyor.
+- **"08.30", "25 dakika", "5 dakika", "üç yıl", "Pomodoro":** sayılar ve terimler aynen kaldı.
+- **"siz" hitabı ve birinci tekil anlatıcı.**
+- **"Sonuç" bölümü kaldırılmadı, "Kısacası" olarak kısaltıldı:** Okur bu bölümü bekliyor, ama tekrarın boyu azaldı.
+- **Eksiltili cümle (bir tane):** "Ayrı bir çalışma alanı, sabit bir rutin ve düzenli molalar." Blog registerında kapanışta yerinde.
+
+### Not
+
+"gün sonunda daha az yorgun hissediyorum" → "Akşam olduğunda eskisi kadar yorgun hissetmiyorum": Anlam aynı (karşılaştırma korunuyor), "gün sonunda" ifadesi "Günün sonunda" deyimiyle karışmasın diye değiştirildi. Bu tür değişiklikleri denetlerken iddianın yönünü (daha az yorgun) kontrol edin.
+
+
+---
+
+# Ek: examples/02-eposta.md
+
+## Örnek 2: İş e-postası
+
+**Register:** iş yazışması (yarı resmi) · **Hitap:** siz · **Kişi:** biz
+
+### Önce
+
+> **Konu:** Proje Teslim Tarihi Hakkında Bilgilendirme
+>
+> Merhaba Selin Hanım,
+>
+> Umarım bu e-posta sizi iyi bulur.
+>
+> Bu e-postayı, Lodos Lojistik projesinin teslim tarihi ile ilgili olarak sizi bilgilendirmek amacıyla yazmaktayım. Ekibimiz tarafından yapılan değerlendirmeler sonucunda, entegrasyon aşamasında bazı teknik zorluklarla karşılaşıldığı tespit edilmiştir.
+>
+> **Mevcut Durum:**
+> - API entegrasyonu %80 oranında tamamlanmıştır.
+> - Test süreci henüz başlamamıştır.
+> - Ödeme modülünde beklenmedik bir uyumsuzluk tespit edilmiştir.
+>
+> Bu bağlamda, söz konusu zorluklar göz önünde bulundurulduğunda, teslim tarihinin 14 Kasım'dan 28 Kasım'a ertelenmesinin uygun olacağı değerlendirilmektedir. Bu durumun yaratacağı olası aksaklıklar için şimdiden özür dileriz.
+>
+> Konuyu daha detaylı bir şekilde görüşmek için bu hafta içinde kısa bir toplantı ayarlayabilirsek çok memnun oluruz. Herhangi bir sorunuz olması durumunda lütfen benimle iletişime geçmekten çekinmeyin.
+>
+> Saygılarımla,
+> Kerem Aydın
+> Proje Yöneticisi
+
+### Sonra
+
+> **Konu:** Lodos Lojistik projesinde teslim tarihi
+>
+> Merhaba Selin Hanım,
+>
+> Lodos Lojistik projesinin teslim tarihiyle ilgili sizi bilgilendirmek istiyorum. Ekibimizin değerlendirmesine göre entegrasyon aşamasında bazı teknik zorluklar çıktı. API entegrasyonunun %80'i tamamlandı, ama test süreci henüz başlamadı. Ödeme modülünde de beklenmedik bir uyumsuzluk tespit ettik.
+>
+> Bu nedenle teslim tarihini 14 Kasım'dan 28 Kasım'a ertelemenin uygun olacağını düşünüyoruz. Bunun yaratabileceği aksaklıklar için şimdiden özür dileriz.
+>
+> Konuyu ayrıntılı konuşmak için bu hafta kısa bir toplantı ayarlayabilirsek çok seviniriz. Sorularınız için bana her zaman yazabilirsiniz.
+>
+> Saygılarımla,
+> Kerem Aydın
+> Proje Yöneticisi
+
+### Düzeltilen örüntüler
+
+| ID | Ne değişti |
+|---|---|
+| DOL-01 | "Umarım bu e-posta sizi iyi bulur." silindi (*I hope this email finds you well* çevirisi) |
+| SOZ-04 | "ile ilgili olarak ... amacıyla yazmaktayım" → "ile ilgili sizi bilgilendirmek istiyorum" |
+| YAPI-04 / CEV-03 | "Ekibimiz tarafından yapılan değerlendirmeler sonucunda ... tespit edilmiştir" → "Ekibimizin değerlendirmesine göre ... çıktı" |
+| BIC-01 | "Mevcut Durum" başlığı ve üç madde düzyazıya çevrildi. Üç bilginin üçü de korundu |
+| SOZ-02 | "Bu bağlamda, söz konusu ... göz önünde bulundurulduğunda" → "Bu nedenle" |
+| YAPI-03 | "değerlendirilmektedir" → "düşünüyoruz" (konuşan belli: ekip) |
+| DOL-02 | "iletişime geçmekten çekinmeyin" kalıbı sade bir kapanışa çevrildi |
+| NOK-03 | "%80 oranında" → "%80'i" (biçim, değer aynı) |
+
+### Bilinçli olarak korunanlar
+
+- **Selamlama, imza, unvan:** E-posta biçiminin parçası.
+- **"siz" hitabı ve özür cümlesi:** Ton ve içerik.
+- **Tarihler (14 Kasım, 28 Kasım), "%80", "Lodos Lojistik", "API":** aynen.
+- **"uygun olacağını düşünüyoruz":** Kaynakta bu bir karar değil, bir öneriydi ("uygun olacağı değerlendirilmektedir"). "Teslim tarihini 28 Kasım'a erteliyoruz" yazmak iddianın gücünü değiştirirdi.
+- **Edilgen → etken dönüşümü** yalnızca öznenin metinde açıkça bulunduğu yerde yapıldı ("Ekibimiz").
+
+### Not
+
+"tespit edilmiştir" → "tespit ettik": Öznenin "biz" (ekip) olduğu kaynakta açık, bu yüzden güvenli bir dönüşüm. Konu satırı da kısaltıldı. Bilgi ("teslim tarihi", proje adı) korundu, "Hakkında Bilgilendirme" dolgusu çıkarıldı.
+
+
+---
+
+# Ek: examples/03-akademik.md
+
+## Örnek 3: Akademik paragraf
+
+**Register:** akademik · **Kişi:** edilgen/nesnel
+
+Akademik metinde amaç gündelikleştirmek değil, **yoğunluğu azaltmaktır.** "-mektedir" çekimi ve edilgen yapı registerın parçasıdır, tamamen kaldırılmaz. Devrik ve eksiltili cümle kullanılmaz.
+
+### Önce
+
+> Günümüzde dijital okuryazarlık, eğitim alanında giderek artan bir öneme sahip olmaktadır. Bu bağlamda, söz konusu çalışmada ortaokul öğrencilerinin dijital okuryazarlık düzeyleri incelenmektedir. Araştırmanın örneklemini İzmir ilinde bulunan 4 ortaokulda öğrenim gören 312 öğrenci oluşturmaktadır. Veriler, Dijital Okuryazarlık Ölçeği aracılığıyla toplanmış olup SPSS 26 programı kullanılarak analiz edilmiştir. Elde edilen bulgular, öğrencilerin dijital okuryazarlık düzeylerinin orta seviyede olduğunu göstermektedir. Ayrıca, cinsiyet değişkenine göre anlamlı bir farklılık bulunmamaktadır, ancak sınıf düzeyi arttıkça puanların da arttığı görülmektedir. Sonuç olarak, dijital okuryazarlık eğitiminin müfredata entegre edilmesi büyük önem taşımaktadır.
+
+### Sonra
+
+> Dijital okuryazarlık eğitim alanında giderek önem kazanmaktadır. Bu çalışmada ortaokul öğrencilerinin dijital okuryazarlık düzeyleri incelenmiştir. Araştırmanın örneklemini İzmir ilindeki 4 ortaokulda öğrenim gören 312 öğrenci oluşturmaktadır. Dijital Okuryazarlık Ölçeği ile toplanan veriler SPSS 26 programıyla analiz edilmiştir. Bulgular, öğrencilerin dijital okuryazarlık düzeylerinin orta seviyede olduğunu göstermektedir. Cinsiyete göre anlamlı bir farklılık bulunmazken sınıf düzeyi arttıkça puanların da arttığı görülmüştür. Bu sonuçlar, dijital okuryazarlık eğitiminin müfredata entegre edilmesi gerektiğine işaret etmektedir.
+
+### Düzeltilen örüntüler
+
+| ID | Ne değişti |
+|---|---|
+| SOZ-02 | "Günümüzde", "Bu bağlamda, söz konusu" silindi |
+| CEV-02 | "artan bir öneme sahip olmaktadır" → "önem kazanmaktadır" |
+| SOZ-04 | "toplanmış olup ... analiz edilmiştir" → sıfat-fiille tek cümle: "toplanan veriler ... analiz edilmiştir" |
+| YAPI-02 | "Ayrıca, ... bulunmamaktadır, ancak ..." → "-mazken" zarf-fiiliyle tek cümle |
+| YAPI-03 | 9 cümlenin 8'i "-mektedir/-miştir" ile bitiyordu. Yöntem cümleleri geçmiş zamana ("incelenmiştir", "görülmüştür") çekildi, bir yüklem zarf-fiile dönüştü. Böylece çekimler çeşitlendi. Bulgu ve örneklem cümleleri "-mektedir" ile kaldı |
+| SOZ-01 / YAPI-08 | "Sonuç olarak, ... büyük önem taşımaktadır" → "Bu sonuçlar, ... gerektiğine işaret etmektedir" |
+
+### Bilinçli olarak korunanlar
+
+- **Edilgen çatı:** Akademik yöntem dilinin parçası. "İnceledik" ya da "analiz ettik" yazılmadı.
+- **"-mektedir" çekiminin bir kısmı:** Bulgu bildiren cümlelerde ("göstermektedir", "oluşturmaktadır") registerın gereği.
+- **312, 4, SPSS 26, İzmir, Dijital Okuryazarlık Ölçeği:** aynen. Ölçek adı özel isim olduğu için büyük harfle kaldı.
+- **"orta seviyede", "anlamlı bir farklılık":** istatistiksel terimler değiştirilmedi.
+- **Son cümlenin iddia gücü:** Kaynakta bir öneri vardı ("büyük önem taşımaktadır"). Sonrası da bir öneri ("gerektiğine işaret etmektedir"). "kanıtlamaktadır" gibi daha güçlü bir fiil seçilmedi.
+
+### Not
+
+"incelenmektedir" → "incelenmiştir": Akademik yazımda yöntem bölümü çoğu zaman geçmiş zamanla yazılır, ama bazı dergiler şimdiki zaman ister. Kullanıcının bağlamı belli değilse bu dönüşüm küçük bir üslup tercihidir, anlam kaymasına yol açmaz.
+
+
+---
+
+# Ek: examples/04-urun-aciklamasi.md
+
+## Örnek 4: Ürün açıklaması
+
+**Register:** pazarlama/e-ticaret · **Hitap:** siz
+
+### Önce
+
+> ## Kumtaşı Atölye El Yapımı Kahve Fincanı Seti
+>
+> Kahve keyfinize yepyeni bir boyut kazandırmaya hazır mısınız? ☕✨
+>
+> Kumtaşı Atölye'nin usta zanaatkarları tarafından özenle üretilen bu set, geleneksel el işçiliği ile modern tasarımı mükemmel bir şekilde bir araya getiriyor. Her bir fincan, benzersiz, zarif ve eşsiz bir karaktere sahiptir — çünkü hiçbiri bir diğerinin aynısı değildir!
+>
+> **Öne Çıkan Özellikler:**
+> - 🎨 **El Yapımı:** Her parça tek tek elde şekillendirilmektedir.
+> - 🔥 **Dayanıklı:** 1200°C'de pişirilmiş yüksek kaliteli seramik.
+> - 🌿 **Doğal:** Kurşunsuz ve gıdaya uygun sır.
+> - 📏 **Ölçüler:** 90 ml kapasite, 6.5 cm yükseklik.
+>
+> Bu set sadece bir fincan seti değil, aynı zamanda sevdiklerinize verebileceğiniz anlamlı bir hediye! Bulaşık makinesinde yıkanabilir, ancak elde yıkanması tavsiye edilmektedir.
+>
+> Kahve deneyiminizi bir üst seviyeye taşıyın! 🚀
+
+### Sonra
+
+> ## Kumtaşı Atölye El Yapımı Kahve Fincanı Seti
+>
+> Kumtaşı Atölye ustalarının elde şekillendirdiği bu set, geleneksel işçiliği modern bir tasarımla buluşturuyor. Fincanların her biri tek tek yapıldığı için hiçbiri ötekinin aynısı değil.
+>
+> **Özellikler**
+> - **El yapımı:** Her parça tek tek elde şekillendiriliyor.
+> - **Dayanıklı:** 1200 °C'de pişirilmiş yüksek kaliteli seramik.
+> - **Doğal:** Kurşunsuz, gıdaya uygun sır.
+> - **Ölçüler:** 90 ml kapasite, 6,5 cm yükseklik.
+>
+> Sevdiklerinize anlamlı bir hediye olarak da verebilirsiniz. Bulaşık makinesinde yıkanabilir, ama elde yıkamanızı öneririz.
+
+### Düzeltilen örüntüler
+
+| ID | Ne değişti |
+|---|---|
+| SOZ-06 / YAPI-07 | "Kahve keyfinize yepyeni bir boyut kazandırmaya hazır mısınız?" açılış sorusu silindi |
+| CEV-03 | "zanaatkarları tarafından özenle üretilen" → "ustalarının elde şekillendirdiği" |
+| SOZ-03 | "mükemmel bir şekilde" silindi |
+| YAPI-05 / CEV-02 | "benzersiz, zarif ve eşsiz bir karaktere sahiptir" → çıkarıldı. Üç sıfat da "hiçbiri aynı değil" bilgisini tekrar ediyordu, o bilgi korundu |
+| NOK-01 | Uzun çizgi kaldırıldı, cümle "için" ile yeniden kuruldu |
+| NOK-04 | 6 emoji ve 3 ünlem kaldırıldı |
+| YAPI-06 | "sadece bir fincan seti değil, aynı zamanda ... hediye" → "hediye olarak da verebilirsiniz" |
+| NOK-03 | "6.5 cm" → "6,5 cm" (ondalık virgül, değer aynı). "1200°C" → "1200 °C" |
+| YAPI-04 | "tavsiye edilmektedir" → "öneririz" |
+| DOL-02 | "Kahve deneyiminizi bir üst seviyeye taşıyın!" silindi |
+
+### Bilinçli olarak korunanlar
+
+- **Özellik listesi:** E-ticaret sayfasında taranacak bilgi. Liste korundu, yalnızca emojiler çıkarıldı.
+- **Bütün teknik değerler:** 1200 °C, kurşunsuz, gıdaya uygun, 90 ml, 6,5 cm, bulaşık makinesi bilgisi.
+- **Ürün ve marka adı:** "Kumtaşı Atölye El Yapımı Kahve Fincanı Seti" başlığı aynen kaldı. Marka adı "Kumtaşı Atölye" bir şirket adı. Kaynaktaki "Kumtaşı Atölye'nin" yazımı "Kumtaşı Atölye ustalarının" biçimine dönüştüğü için kesme sorunu ortadan kalktı.
+
+### Not
+
+**"6.5 cm" → "6,5 cm":** Bağlamda (fincan yüksekliği) değerin altı buçuk santimetre olduğu açık, dönüşüm güvenli. Bağlam belirsiz olsaydı dokunulmazdı.
+
+**"1200 °C":** TDK Yazım Kılavuzu'ndaki örnek (*-2 °C*) sayı ile derece simgesi arasında boşluk bırakır. Ancak kılavuzda bu konuda ayrı bir kural yoktur. Bu, değer değiştirmeyen küçük bir biçim düzeltmesidir.
+
+
+---
+
+# Ek: examples/05-linkedin.md
+
+## Örnek 5: LinkedIn gönderisi
+
+**Register:** sosyal medya (profesyonel) · **Kişi:** ben
+
+### Önce
+
+> 🚀 Yeni bir yolculuğa başlıyorum! 🚀
+>
+> 5 yıllık Kuzey Bank serüvenimin ardından, bugün itibarıyla Pusula Ödeme'de Ürün Müdürü olarak yeni bir sayfa açıyorum.
+>
+> Kuzey Bank'ta geçirdiğim süre boyunca; inanılmaz bir ekiple çalışma, son derece değerli deneyimler edinme ve kariyerimde önemli bir dönüm noktası yaşama fırsatına sahip oldum. Bu süreçte bana destek olan herkese sonsuz teşekkürlerimi sunarım. 🙏
+>
+> Peki, bu yeni rolde beni ne bekliyor? Kısacası: milyonlarca kullanıcının günlük finansal deneyimini şekillendiren ürünler geliştirmek. Fintech ekosistemi hızla gelişmekte olup bu dönüşümün bir parçası olmak beni son derece heyecanlandırıyor.
+>
+> Unutmayın: Her son, aslında yeni bir başlangıçtır. 💡
+>
+> #KariyerYolculuğu #Fintech #YeniBaşlangıçlar #ÜrünYönetimi
+
+### Sonra
+
+> Kuzey Bank'ta geçen 5 yılın ardından bugün Pusula Ödeme'de Ürün Müdürü olarak başlıyorum.
+>
+> Kuzey Bank'ta harika bir ekiple çalıştım, çok şey öğrendim. Kariyerimin dönüm noktalarından biri orada yaşandı. Bu süreçte bana destek olan herkese teşekkür ederim.
+>
+> Yeni rolümde milyonlarca kullanıcının günlük finansal deneyimini şekillendiren ürünler geliştireceğim. Fintech ekosistemi hızla gelişiyor, bu dönüşümün bir parçası olmak beni çok heyecanlandırıyor.
+>
+> #KariyerYolculuğu #Fintech #YeniBaşlangıçlar #ÜrünYönetimi
+
+### Düzeltilen örüntüler
+
+| ID | Ne değişti |
+|---|---|
+| NOK-04 | 5 emoji ve açılış ünlemleri kaldırıldı |
+| SOZ-06 | "Yeni bir yolculuğa başlıyorum", "serüven", "yeni bir sayfa açıyorum" → düz bilgi |
+| YAPI-05 / CEV-02 | "...çalışma, ... edinme ve ... yaşama fırsatına sahip oldum" üçlüsü üç ayrı yükleme bölündü. Üç bilgi de korundu |
+| SOZ-03 | "inanılmaz", "son derece değerli", "sonsuz", "son derece" sadeleştirildi |
+| YAPI-07 | "Peki, bu yeni rolde beni ne bekliyor? Kısacası: ..." → doğrudan cümle |
+| SOZ-04 | "gelişmekte olup" → "gelişiyor," |
+| DOL-02 | "Unutmayın: Her son, aslında yeni bir başlangıçtır." silindi |
+| NOK (noktalı virgül) | "süre boyunca; inanılmaz..." cümlesindeki yanlış noktalı virgül sorunu cümle yeniden kurulduğu için ortadan kalktı |
+
+### Bilinçli olarak korunanlar
+
+- **Hashtag'ler:** Platformun işlevsel parçası. Sayıları ve yazımları aynen kaldı.
+- **Kurum adları ve unvan:** Kuzey Bank, Pusula Ödeme, Ürün Müdürü (unvan büyük harfle).
+- **"5 yıl", "milyonlarca kullanıcı":** aynen.
+- **Birinci tekil anlatım ve heyecan ifadesi:** LinkedIn registerında kişisel ton yerinde. "Son derece" yerine "çok" konarak heyecan korundu.
+
+### Not
+
+**"bugün itibarıyla"** → **"bugün":** "İtibarıyla" resmi yazışma dilinden geliyor ve gönderinin tonuna uymuyor. Anlam aynı.
+
+**"5 yıllık serüvenimin ardından ... yeni bir sayfa açıyorum"** → **"Kuzey Bank'ta geçen 5 yılın ardından ... başlıyorum":** "Kuzey Bank'tan ayrıldım" demek daha doğal olurdu, ama kaynakta "ayrıldım" açıkça yazmıyor. Yalnızca çıkarım yoluyla anlaşılıyor. Skill, çıkarımı açık bilgiye dönüştürmez, bu yüzden temkinli olan biçim seçildi.

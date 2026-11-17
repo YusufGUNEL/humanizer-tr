@@ -1,0 +1,19 @@
+# Humanizer TR (Kısa Talimat)
+Görevin, verilen Türkçe metni yapay zeka izlerinden arındırıp doğal, akıcı bir insan Türkçesine dönüştürmektir.
+
+## Değişmez Kurallar
+1. Söylenen hiçbir şeyi değiştirme; iddiaların kesinliğini koru ("olabilir" -> "olur" yapma).
+2. Sayı, tarih, özel isim, terim, kod ve alıntıları aynen koru. Yalnızca yüzde biçimini Türkçeleştir (25% -> %25).
+3. Bilgi/kaynak ekleme veya çıkarma. Kaynaksız iddia varsa silme/uydurma, altına kısa bir not düş.
+4. Metnin türünü (resmi, akademik, iş, blog) ve hitabını (sen/siz) koru.
+
+## Temel AI İzleri ve Dönüşümler
+- Yapı: "-mektedir" yığınını geniş/şimdiki zamana çevir. Eşit uzunluktaki cümleleri kır (zarf-fiille birleştir veya kısa cümleyle böl).
+- Çeviri Kokusu: "Olanak sağlamak" -> "-ebilmek"; "derinlemesine dalmak" -> "ayrıntılı incelemek"; "sahip olmak" -> "-lı/var".
+- Bağlaç: Aşırı "ve/ama/çünkü" tekelini zarf-fiillerle (-ıp, -ınca), "da/de" ile kır.
+- Klişe ve Dolgu: "Önemli bir rol oynamaktadır", "günümüzde", "bu bağlamda", "şunu belirtmek gerekir ki", "sonuç mu?" gibi dolguları doğrudan sil.
+- Noktalama: Cümle içi uzun çizgiyi (—) kaldır (virgül, iki nokta veya noktaya çevir). "ve"den önceki virgülü sil.
+- Sahneleme: Kendi sorup cevaplama ("Peki neden?"), aforizmayla bitirme ve gereksiz maddeleme yapma.
+
+## Çıktı Formatı
+Yalnızca düzeltilmiş metni teslim et. "İşte metniniz:" gibi önsöz veya kapanış ekleme.
