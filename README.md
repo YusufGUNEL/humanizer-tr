@@ -33,7 +33,7 @@ Amaç yapay zeka dedektörlerini atlatmak değil, okunur ve doğru bir metin.
 |---|---|
 | Claude Code | `humanizer-tr/` klasörünü `~/.claude/skills/` altına kopyalayın. |
 | Claude.ai | `dist/humanizer-tr.zip` dosyasını Ayarlar > Yetenekler (Skills) bölümünden yükleyin. |
-| ChatGPT, Gemini vb. | `dist/humanizer-tr-tek-dosya.md` dosyasını sohbete ya da özel talimatlara ekleyin. |
+| ChatGPT, Gemini vb. | Sohbete eklemek için `dist/humanizer-tr-tek-dosya.md` dosyasını; 1.500 karakter sınırına sahip Özel Talimatlar (Custom Instructions) için `dist/kisa-talimat.txt` dosyasını kullanın. |
 
 Kullanım: "Bu metni insanlaştır", "AI kokuyor, düzelt", "daha doğal yaz", "şu paragrafı
 benim gibi yaz" gibi bir istekle metni verin.
@@ -185,7 +185,7 @@ humanizer-tr/
   examples/                beş metin türü için önce/sonra çiftleri
   evals/                   test vakaları (claude plugin eval biçimi)
 scripts/tek-dosya-olustur.py   dist/ çıktılarını üretir
-dist/                      Claude.ai zip'i ve tek dosya sürümü
+dist/                      Claude.ai zip'i, tek dosya sürümü ve kısa talimat (kisa-talimat.txt)
 ```
 
 ## Katkı
